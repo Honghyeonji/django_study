@@ -1,0 +1,104 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Aug 29 13:59:00 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x5572f9681e70
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Aug 29 13:59:17 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x5654e6d07e70
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Aug 29 14:23:31 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x5583feaf9e70
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Aug 29 14:33:10 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x55d85e3a2e70
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.

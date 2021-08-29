@@ -1,0 +1,223 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Aug 28 15:48:28 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :80 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45078 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x55ed577a5450
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ed577a5450 pid: 1145 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+spawned uWSGI master process (pid: 1145)
+spawned uWSGI worker 1 (pid: 1148, cores: 1)
+spawned uWSGI http 1 (pid: 1149)
+subprocess 1146 exited with code 0
+Gracefully killing worker 1 (pid: 1148)...
+gateway "uWSGI http 1" has been buried (pid: 1149)
+...gracefully killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /workspace/mbitTest
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:45078)
+running /workspace/mbitTest/venv/bin/uwsgi
+[uWSGI] getting INI configuration from .config/uwsgi/uwsgi.ini
+[uwsgi-static] added mapping for /static => /workspace/mbitTest/staticfiles/
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Aug 28 15:48:36 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :80 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:45865 (port auto-assigned) fd 4
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x55cad9e373d0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55cad9e373d0 pid: 1145 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+gracefully (RE)spawned uWSGI master process (pid: 1145)
+spawned uWSGI worker 1 (pid: 1152, cores: 1)
+spawned uWSGI http 1 (pid: 1153)
+subprocess 1150 exited with code 0
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Aug 28 15:49:26 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:80).
+bind(): Address already in use [core/socket.c line 769]
+VACUUM: pidfile removed.
+[pid: 1152|app: 0|req: 1/1] 172.17.0.1 () {54 vars in 2862 bytes} [Sat Aug 28 15:49:44 2021] GET / => generated 2368 bytes in 88 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Aug 28 15:59:37 2021] ***
+compiled with version: 7.5.0 on 28 August 2021 15:32:42
+os: Linux-4.4.0-1128-aws #142-Ubuntu SMP Fri Apr 16 12:42:33 UTC 2021
+nodename: goorm
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /workspace/mbitTest
+writing pidfile to /workspace/mbitTest/tmp/MBIT.pid
+detected binary path: /workspace/mbitTest/venv/bin/uwsgi
+chdir() to /workspace/mbitTest/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (default, Nov  4 2020, 10:17:35)  [GCC 7.4.0]
+PEP 405 virtualenv detected: /workspace/mbitTest/venv/
+Set PythonHome to /workspace/mbitTest/venv/
+Python main interpreter initialized at 0x55c8b9ad1f60
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+[pid: 1152|app: 0|req: 2/2] 172.17.0.1 () {54 vars in 2862 bytes} [Sat Aug 28 15:59:49 2021] GET / => generated 2368 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 3/3] 172.17.0.1 () {54 vars in 2885 bytes} [Sat Aug 28 15:59:54 2021] GET /form/ => generated 36777 bytes in 292 msecs (HTTP/1.1 200) 7 headers in 350 bytes (1 switches on core 0)
+[pid: 1152|app: -1|req: -1/4] 172.17.0.1 () {52 vars in 2774 bytes} [Sat Aug 28 15:59:55 2021] GET /static/js/form.js => generated 1367 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 125 bytes (0 switches on core 0)
+[pid: 1152|app: 0|req: 4/5] 172.17.0.1 () {54 vars in 2816 bytes} [Sat Aug 28 16:06:22 2021] GET / => generated 2368 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 5/6] 172.17.0.1 () {54 vars in 2839 bytes} [Sat Aug 28 16:06:23 2021] GET /form/ => generated 36777 bytes in 241 msecs (HTTP/1.1 200) 7 headers in 350 bytes (1 switches on core 0)
+[pid: 1152|app: -1|req: -1/7] 172.17.0.1 () {52 vars in 2728 bytes} [Sat Aug 28 16:06:23 2021] GET /static/js/form.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 1152|app: 0|req: 6/8] 172.17.0.1 () {56 vars in 2870 bytes} [Sat Aug 28 16:06:34 2021] GET /form/ => generated 36777 bytes in 266 msecs (HTTP/1.1 200) 7 headers in 350 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 7/9] 172.17.0.1 () {56 vars in 2870 bytes} [Sat Aug 28 16:06:35 2021] GET /form/ => generated 36777 bytes in 257 msecs (HTTP/1.1 200) 7 headers in 350 bytes (1 switches on core 0)
+Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./main/views.py", line 44, in result
+    return render(request, 'result.html', context)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/workspace/mbitTest/venv/lib/python3.7/site-packages/django/template/base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static'. Did you forget to register or load this tag?
+[pid: 1152|app: 0|req: 8/10] 172.17.0.1 () {62 vars in 3000 bytes} [Sat Aug 28 16:08:13 2021] POST /result/ => generated 135785 bytes in 386 msecs (HTTP/1.1 500) 6 headers in 187 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 9/11] 172.17.0.1 () {62 vars in 3000 bytes} [Sat Aug 28 16:11:40 2021] POST /result/ => generated 7204 bytes in 94 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1152|app: -1|req: -1/12] 172.17.0.1 () {50 vars in 2697 bytes} [Sat Aug 28 16:11:40 2021] GET /static/css/result.css => generated 4511 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+Not Found: /static/img/2.png
+[pid: 1152|app: 0|req: 10/13] 172.17.0.1 () {50 vars in 2733 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/2.png => generated 2448 bytes in 11 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/js.png
+[pid: 1152|app: 0|req: 11/14] 172.17.0.1 () {50 vars in 2735 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/js.png => generated 2451 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/css.png
+[pid: 1152|app: 0|req: 12/15] 172.17.0.1 () {50 vars in 2737 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/css.png => generated 2454 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/html.png
+[pid: 1152|app: 0|req: 13/16] 172.17.0.1 () {50 vars in 2739 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/html.png => generated 2457 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/lec_30minutes.png
+[pid: 1152|app: 0|req: 14/17] 172.17.0.1 () {50 vars in 2757 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/lec_30minutes.png => generated 2484 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/lec_web_fullstack.png
+[pid: 1152|app: 0|req: 15/18] 172.17.0.1 () {50 vars in 2765 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/lec_web_fullstack.png => generated 2496 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/weniv_logo_purple.png
+[pid: 1152|app: 0|req: 16/19] 172.17.0.1 () {50 vars in 2765 bytes} [Sat Aug 28 16:11:40 2021] GET /static/img/weniv_logo_purple.png => generated 2496 bytes in 35 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 17/20] 172.17.0.1 () {54 vars in 2836 bytes} [Sat Aug 28 16:11:47 2021] GET / => generated 2368 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 18/21] 172.17.0.1 () {54 vars in 2839 bytes} [Sat Aug 28 16:11:48 2021] GET /form/ => generated 36777 bytes in 299 msecs (HTTP/1.1 200) 7 headers in 350 bytes (1 switches on core 0)
+[pid: 1152|app: -1|req: -1/22] 172.17.0.1 () {52 vars in 2728 bytes} [Sat Aug 28 16:11:49 2021] GET /static/js/form.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 1152|app: 0|req: 19/23] 172.17.0.1 () {62 vars in 3000 bytes} [Sat Aug 28 16:12:13 2021] POST /result/ => generated 7204 bytes in 106 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /static/img/2.png
+[pid: 1152|app: 0|req: 20/24] 172.17.0.1 () {50 vars in 2733 bytes} [Sat Aug 28 16:12:13 2021] GET /static/img/2.png => generated 2448 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/css.png
+[pid: 1152|app: 0|req: 21/25] 172.17.0.1 () {50 vars in 2735 bytes} [Sat Aug 28 16:12:13 2021] GET /static/img/css.png => generated 2454 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/lec_web_fullstack.png
+[pid: 1152|app: 0|req: 22/26] 172.17.0.1 () {50 vars in 2764 bytes} [Sat Aug 28 16:12:14 2021] GET /static/img/lec_web_fullstack.png => generated 2496 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/js.png
+[pid: 1152|app: 0|req: 23/27] 172.17.0.1 () {50 vars in 2734 bytes} [Sat Aug 28 16:12:14 2021] GET /static/img/js.png => generated 2451 bytes in 44 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/html.png
+[pid: 1152|app: 0|req: 24/28] 172.17.0.1 () {50 vars in 2738 bytes} [Sat Aug 28 16:12:14 2021] GET /static/img/html.png => generated 2457 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/lec_30minutes.png
+[pid: 1152|app: 0|req: 25/29] 172.17.0.1 () {50 vars in 2756 bytes} [Sat Aug 28 16:12:14 2021] GET /static/img/lec_30minutes.png => generated 2484 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/img/weniv_logo_purple.png
+[pid: 1152|app: 0|req: 26/30] 172.17.0.1 () {50 vars in 2764 bytes} [Sat Aug 28 16:12:14 2021] GET /static/img/weniv_logo_purple.png => generated 2496 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 1152|app: 0|req: 27/31] 172.17.0.1 () {62 vars in 3000 bytes} [Sat Aug 28 16:13:06 2021] POST /result/ => generated 7218 bytes in 112 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1152|app: -1|req: -1/32] 172.17.0.1 () {50 vars in 2769 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/lec_web_fullstack.png => generated 32268 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 1152|app: -1|req: -1/33] 172.17.0.1 () {50 vars in 2739 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/js.png => generated 8969 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 1152|app: -1|req: -1/34] 172.17.0.1 () {50 vars in 2737 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/2.png => generated 93698 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 1152|app: -1|req: -1/35] 172.17.0.1 () {50 vars in 2743 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/html.png => generated 10895 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 1152|app: -1|req: -1/36] 172.17.0.1 () {50 vars in 2741 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/css.png => generated 9599 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+Not Found: /static/image/lec_30minutes.png
+[pid: 1152|app: 0|req: 28/37] 172.17.0.1 () {50 vars in 2761 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/lec_30minutes.png => generated 2490 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /static/image/weniv_logo_purple.png
+[pid: 1152|app: 0|req: 29/38] 172.17.0.1 () {50 vars in 2769 bytes} [Sat Aug 28 16:13:06 2021] GET /static/image/weniv_logo_purple.png => generated 2502 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
